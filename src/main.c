@@ -34,7 +34,6 @@ struct Data
 
 int main()
 {
-
    // printf("uint %ld\n",sizeof(unsigned long long)); //4
     const char *rawdata = "rawdata/datos";
     int fd = open(rawdata, O_RDONLY);
